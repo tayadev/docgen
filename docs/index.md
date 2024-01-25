@@ -5,7 +5,7 @@ Documentation generator by Taya
 ## Usage
   
 ```bash
-$ docgen <input> <output>
+$ docgen &lt;input&gt; &lt;output&gt;
 ```
 
 It will take all markdown files in the input directory, and generate html files in the output directory.
