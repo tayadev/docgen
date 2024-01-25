@@ -19,6 +19,7 @@ jobs:
       - uses: leafo/gh-actions-lua@v9
       - name: Build with Docgen
         run: |
+          luarocks install luafilesystem
           lua -l setup docgen.lua docs out
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
